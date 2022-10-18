@@ -6,4 +6,5 @@ This will be the place documenting how we solved the problem (DELETE THIS SECTIO
 4) other relevant info 
 
 This document could be used by someone unfamiliar with APIs to recreate our Proof-of-Concept.
-----
+
+---
