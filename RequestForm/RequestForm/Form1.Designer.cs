@@ -42,7 +42,7 @@ namespace RequestForm
             this.pokeGetButton.TabIndex = 0;
             this.pokeGetButton.Text = "Get Pokemon";
             this.pokeGetButton.UseVisualStyleBackColor = true;
-            this.pokeGetButton.Click += new System.EventHandler(this.button1_Click);
+            this.pokeGetButton.Click += new System.EventHandler(this.pokeGetButton_Click);
             // 
             // pokeNameTextBox
             // 

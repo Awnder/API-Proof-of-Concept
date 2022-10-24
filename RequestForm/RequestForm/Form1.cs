@@ -30,16 +30,17 @@ namespace RequestForm
             InitializeComponent();          
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        static async void GetPoke()
+        {
+            //used a magic number here because PokeAPI documentation does not show how many pokemon ids they have. I (Andrew) chose 400 as a safe number
+            Pokemon poke = await pokeClient.GetResourceAsync<Pokemon>(rnd.Next(0, 400)); //gets pokemon by id
+            pokeName = poke.Name;
+        }
+
+        private void pokeGetButton_Click(object sender, EventArgs e)
         {
             GetPoke();
             this.pokeNameTextBox.Text = pokeName;
-        }
-
-        static async void GetPoke()
-        {
-            Pokemon poke = await pokeClient.GetResourceAsync<Pokemon>(rnd.Next(0, 400));
-            pokeName = poke.Name;
         }
     }
 }
