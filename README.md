@@ -10,11 +10,13 @@ API Documentation
 These first 2 links is the API itself as well as instructions on how to use it and what else it could be used for:
  
 https://pokeapi.co/docs/v2#pokemon
+
 https://github.com/mtrdp642/PokeApiNet
 
 These resource is about how packages and async work in visual studios:
 
 https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+
 https://learn.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-in-visual-studio
 
 Note: some of our members encountered an error "Error 0x80010135 (path too long)" when downloading the solution and running it. We found to bypass this was simply pressing skip when that error appears and the program would continue to run fine.
