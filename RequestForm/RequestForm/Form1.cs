@@ -1,9 +1,10 @@
-﻿///PokeAPI Proof-of-Concept
+﻿/// PokeAPI Proof-of-Concept
 ///
-///Created by Viktor Berg, Brian Ly, Masaya Takahashi, and Andrew Shiroma 
-///Time due at October 24th
+/// Gets a random Pokemon's name by a push of a button
+/// Created by Viktor Berg, Brian Ly, Masaya Takahashi, and Andrew Shiroma 
+/// Time due at October 24th
 ///
-///Github link: https://github.com/Awnder/API-Proof-of-Concept
+/// Github link: https://github.com/Awnder/API-Proof-of-Concept
 
 using System;
 using System.Collections.Generic;
@@ -32,7 +33,8 @@ namespace RequestForm
 
         static async void GetPoke()
         {
-            //used a magic number here because PokeAPI documentation does not show how many pokemon ids they have. I (Andrew) chose 400 as a safe number
+            //used a magic number here because PokeAPI documentation does not show how many pokemon ids they have
+            //I (Andrew) chose 400 as a safe number as the number of current pokmemon is around 900
             Pokemon poke = await pokeClient.GetResourceAsync<Pokemon>(rnd.Next(0, 400)); //gets pokemon by id
             pokeName = poke.Name;
         }
