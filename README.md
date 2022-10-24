@@ -7,12 +7,12 @@ API Documentation
 
 3. Links and resources:
 
-these first 2 links are the API themselves as well as instructions on how to use them and what else they could be used for:
+These first 2 links is the API itself as well as instructions on how to use it and what else it could be used for:
  
 https://pokeapi.co/docs/v2#pokemon
 https://github.com/mtrdp642/PokeApiNet
 
-These resource is to teach and help us understand how packages and async work in visual studios:
+These resource is about how packages and async work in visual studios:
 
 https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
 https://learn.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-in-visual-studio
