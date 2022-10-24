@@ -29,34 +29,59 @@ namespace RequestForm
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.pokeGetButton = new System.Windows.Forms.Button();
+            this.pokeNameTextBox = new System.Windows.Forms.TextBox();
+            this.pokeNameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // pokeGetButton
             // 
-            this.button1.Location = new System.Drawing.Point(360, 232);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pokeGetButton.Location = new System.Drawing.Point(190, 275);
+            this.pokeGetButton.Name = "pokeGetButton";
+            this.pokeGetButton.Size = new System.Drawing.Size(159, 60);
+            this.pokeGetButton.TabIndex = 0;
+            this.pokeGetButton.Text = "Get Pokemon";
+            this.pokeGetButton.UseVisualStyleBackColor = true;
+            this.pokeGetButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pokeNameTextBox
+            // 
+            this.pokeNameTextBox.Location = new System.Drawing.Point(219, 162);
+            this.pokeNameTextBox.Name = "pokeNameTextBox";
+            this.pokeNameTextBox.ReadOnly = true;
+            this.pokeNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.pokeNameTextBox.TabIndex = 1;
+            this.pokeNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pokeNameLabel
+            // 
+            this.pokeNameLabel.AutoSize = true;
+            this.pokeNameLabel.Location = new System.Drawing.Point(216, 127);
+            this.pokeNameLabel.Name = "pokeNameLabel";
+            this.pokeNameLabel.Size = new System.Drawing.Size(86, 13);
+            this.pokeNameLabel.TabIndex = 2;
+            this.pokeNameLabel.Text = "Pokemon Name:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(568, 450);
+            this.Controls.Add(this.pokeNameLabel);
+            this.Controls.Add(this.pokeNameTextBox);
+            this.Controls.Add(this.pokeGetButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button pokeGetButton;
+        private System.Windows.Forms.TextBox pokeNameTextBox;
+        private System.Windows.Forms.Label pokeNameLabel;
     }
 }
 
