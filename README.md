@@ -22,3 +22,5 @@ https://learn.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-in-
 Note: some of our members encountered an error "Error 0x80010135 (path too long)" when downloading the solution and running it. We found to bypass this was simply pressing skip when that error appears and the program would continue to run fine.
 
 https://stackoverflow.com/questions/17807281/visual-studio-pathtoolongexception-even-when-the-path-length-is-less-than-260
+
+Created by Viktor Berg, Brian Ly, Masaya Takahashi, and Andrew Shiroma 
