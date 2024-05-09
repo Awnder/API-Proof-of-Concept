@@ -1,17 +1,16 @@
 API Documentation
 ----
+**Please note that text recognition does not work any long as Azure trial support has ended.** 
 
-1. The API we used for this group work is PokeApiNet. The main purpose of the API we wanted to specifically get is getting the names of random pokemon by id between 1 and 400 into our application every time the user presses randomize. At first we wanted to use an API that randomizes Shakespeare Quotes, however our group ran into the problem where the API would only allow a limited amount of requests (5 per hour). As a result, we decided to switch to PokeAPiNet which allows us to request however much we wanted. 
+## What is this program?
+This class project is a basic speech-to-text notetaker. It uses Microsoft's Cognitive Services ability using Azure.
 
-2. The Actual Implementation of the API to the project itself was fairly simple. First, we create a new project using Visual Studios as well as download the PokeApiNet package from github(provided below). After the program loads up, we locate the Dependencies(or Reference file) of our program and select Manage NuGet Packages. If user does not see or have NuGet packages, documentation on how to install it will be provided below. User will then select "browse section" and search for the PokeApiNet and install it when prompted. After the package is installed, in order to use the API, the statement "using PokiApiNet;" is required at the head of the source code. 
+### Download and Use
+Clone the repository!
 
-3. Links and resources:
+This project requires [C# SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) installed. Please install this to ensure this program works as intended. Compile and run ```Form1.cs``` found in ```API-Proof-of-Concept/RequestForm/RequestForm/``` to use the program! Make sure you have a mic close to you so the program will pick up your voice.
 
-These first 2 links is the API itself as well as instructions on how to use it and what else it could be used for:
- 
-https://pokeapi.co/docs/v2#pokemon
-
-https://github.com/mtrdp642/PokeApiNet
+Links and resources:
 
 These resource is about how packages and async work in visual studios:
 
